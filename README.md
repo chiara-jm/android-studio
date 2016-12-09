@@ -6,10 +6,12 @@ It contains templates to create the squeleton for the presentation layer of an s
 
 ### How to use it?
 Just copy the `mvp-vm` folder into:
+
 + MAC: `/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/`
 + Windows: `{ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/`
 
 and restart AndroidStudio. Then just create all your mvp-vm screens by just doing a single click.
+
 ![android-studio-screen-shoot](https://github.com/chiara-jm/android-studio/raw/master/screenshots/mvp-vm-template.png)
 
 ###The Magic

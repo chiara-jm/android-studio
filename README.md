@@ -10,7 +10,7 @@ Just copy the `mvp-vm` folder into:
 + Windows: `{ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/`
 
 and restart AndroidStudio. Then just create all your mvp-vm screens by just doing a single click.
-![android-studio-screen-shoot](https://github.com/chiara-jm/markdown-here/raw/master/screen-shots/mvp-vm-template.png)
+![android-studio-screen-shoot](https://github.com/chiara-jm/android-studio/raw/master/screenshots/mvp-vm-template.png)
 
 ###The Magic
 The mvp-vm template will create the `Contract` interface:

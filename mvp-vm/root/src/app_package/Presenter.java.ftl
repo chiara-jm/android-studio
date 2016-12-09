@@ -14,9 +14,4 @@ public class ${screenName}Presenter extends BaseCleanPresenter<${screenName}Cont
         super(view, viewModel, useCaseExecutor);
     }
 
-    @Override
-    public void start() {
-
-    }
-
 }

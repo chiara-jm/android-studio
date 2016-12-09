@@ -2,10 +2,10 @@
 <template
     format="5"
     revision="1"
-    name="MVP Fragment Screen"
+    name="Create MVP Screen"
     description="Creates a new MVP screen on your App. Contract, Presenter, Fragment (View), ViewModel and layout.">
 
-    <category value="MVP" />
+    <category value="mvp-vm" />
 
     <parameter
         id="screenName"
@@ -19,7 +19,7 @@
         name="Package name"
         type="string"
         constraints="package"
-        suggest="presentation.${extractLetters(screenName?lower_case)}" />
+        suggest="presentation" />
 
     <parameter
         id="layoutName"

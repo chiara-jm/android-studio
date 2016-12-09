@@ -33,6 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility='@{viewModel.loading ? View.VISIBLE : View.GONE}'>
+
+        <!-- insert your specific layout here -->
+
     </FrameLayout>
 </FrameLayout>
 </layout>

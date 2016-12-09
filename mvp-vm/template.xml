@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="1"
+    name="MVP Fragment Screen"
+    description="Creates a new MVP screen on your App. Contract, Presenter, Fragment (View), ViewModel and layout.">
+
+    <category value="MVP" />
+
+    <parameter
+        id="screenName"
+        name="Screen Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MvpScreen" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        suggest="presentation.${extractLetters(screenName?lower_case)}" />
+
+    <parameter
+        id="layoutName"
+        name="Layout file"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${classToResource(screenName)}_view"
+        help="xml layout file for of the screen" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

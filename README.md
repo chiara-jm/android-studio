@@ -2,7 +2,7 @@
 Android Studio templates and tools to make the developer life easier
 
 ## mvp-vm
-It contains templates to create the squeleton for the presentation layer of an specific screen based on [android-mvp-vm](https://github.com/chiara-jm/android-mvp-vm-ui).
+It contains templates to create the squeleton for the presentation layer of an specific screen based on [android-mvp-vm](https://github.com/chiara-jm/android-mvp-vm).
 
 ### How to use it?
 Just copy the `mvp-vm` folder into:

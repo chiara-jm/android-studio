@@ -1,4 +1,4 @@
-package base.sampleapp.presentation.detail;
+package ${packageName};
 
 import android.databinding.BaseObservable;
 

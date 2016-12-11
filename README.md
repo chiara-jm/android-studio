@@ -2,15 +2,17 @@
 Android Studio templates and tools to make the developer life easier
 
 ## mvp-vm
-It contains templates to create the squeleton for the presentation layer of an specific screen based on [android-mvp-vm](https://github.com/chiara-jm/android-mvp-vm-ui).
+It contains templates to create the squeleton for the presentation layer of an specific screen based on [android-mvp-vm](https://github.com/chiara-jm/android-mvp-vm).
 
 ### How to use it?
 Just copy the `mvp-vm` folder into:
+
 + MAC: `/Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/`
 + Windows: `{ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/`
 
 and restart AndroidStudio. Then just create all your mvp-vm screens by just doing a single click.
-![android-studio-screen-shoot](https://github.com/chiara-jm/markdown-here/raw/master/screen-shots/mvp-vm-template.png)
+
+![android-studio-screen-shoot](https://github.com/chiara-jm/android-studio/raw/master/screenshots/mvp-vm-template.png)
 
 ###The Magic
 The mvp-vm template will create the `Contract` interface:

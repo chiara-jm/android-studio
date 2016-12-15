@@ -14,5 +14,7 @@ public interface ${screenName}Contract {
 
     interface ViewModel extends BaseContract.ViewModel {
 
+        boolean isLoading();
+
     }
 }

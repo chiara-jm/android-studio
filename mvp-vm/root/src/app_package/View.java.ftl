@@ -7,6 +7,10 @@ import base.mvp.BaseMvpFragment;
 
 public class ${screenName}View extends BaseMvpFragment<${screenName}Contract.Presenter, ${screenName}Contract.ViewModel, ${screenName}ViewBinding> implements ${screenName}Contract.View {
 
+    public static ${screenName}View newInstance() {
+        return new ${screenName}View();
+    }
+
     @Override
     protected ${screenName}ViewBinding inflateDataBinding(LayoutInflater inflater, ViewGroup container) {
         return ${screenName}ViewBinding.inflate(inflater, container, false);

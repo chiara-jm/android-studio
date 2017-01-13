@@ -8,13 +8,11 @@ public interface ${screenName}Contract {
 
     }
 
-    interface Presenter extends BaseContract.Presenter<View, ViewModel> {
+    interface Presenter extends BaseContract.Presenter {
 
     }
 
     interface ViewModel extends BaseContract.ViewModel {
-
-        boolean isLoading();
 
     }
 }

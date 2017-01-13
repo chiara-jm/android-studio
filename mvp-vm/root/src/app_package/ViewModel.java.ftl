@@ -2,11 +2,12 @@ package ${packageName};
 
 import android.databinding.BaseObservable;
 
-public class ${screenName}ViewModel extends BaseObservable implements ${screenName}Contract.ViewModel {
+import base.mvp.BaseViewModel;
 
-    @Override
-    public boolean isLoading() {
-        return false;
+public class ${screenName}ViewModel extends BaseViewModel implements ${screenName}Contract.ViewModel {
+
+    public ${screenName}ViewModel(@NonNull Context context) {
+        super(context);
     }
 
 }

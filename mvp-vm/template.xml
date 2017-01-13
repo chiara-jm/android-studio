@@ -26,7 +26,7 @@
         name="Layout file"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${classToResource(screenName)}_view"
+        suggest="${classToResource(screenName)}_layout"
         help="xml layout file for of the screen" />
 
     <globals file="globals.xml.ftl" />
